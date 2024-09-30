@@ -5,11 +5,7 @@ public class JadonContainerTester
     
        JadonContainer test = new JadonContainer(3);
        test.addValue(3);
-       test.addValue(1);
-       test.addValue(8);
        test.addValue(66);
-       test.addValue(5);
-       test.addValue(17);
        test.addValue(0, 2);
        test.addValue(7);
        test.removeValue(1);
@@ -22,7 +18,7 @@ public class JadonContainerTester
        //test.clear();
        
        System.out.print("{");
-       test.toString();
+       System.out.println(test);
        
        System.out.println();
        System.out.println("Is array empty?: " + test.isEmpty());
