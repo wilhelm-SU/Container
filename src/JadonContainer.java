@@ -121,18 +121,14 @@ public class JadonContainer
        return x + "}";
    }
    
-   public void clear(){ 
-       int temp[] = new int[0];
-       data = temp;
+   public void clear(){
+       currentPosition = 0;
+       data = new int[0];
     }//broken
    
    //write a toString to print something interesting
    
-   //Ask program if it contains(value) returning true or false
-   
-   //Ask your program for the index of a given value
-   
-   //Write a method to return if empty
+   //Clear array
    
    
 }
